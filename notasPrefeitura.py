@@ -23,7 +23,7 @@ def tratarCNPJCPF(variable):
     #Substitui todos os caracteres que não são números por uma string vazia
     return re.sub(r'\D', '', variable)
 
-
+# Crie no seu "C" um caminho para as extenções que deseja usar para resolver os capthas.
 extension_path1 = "C:\\python\\ÁreadeTrabalho\\nativa\\extension\\reCAPTCHA"
 extension_path2 ="C:\\python\\ÁreadeTrabalho\\nativa\\extension\\reCAPTCHA2"
 user_data_dir ="C:\\python\\ÁreadeTrabalho\\nativa\\extension"
